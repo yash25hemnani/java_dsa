@@ -1,4 +1,4 @@
-package com.first;
+package com.basics;
 
 // Every file that ends with .java is class.
 // So this file must contain a class named main

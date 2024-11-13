@@ -1,4 +1,4 @@
-package com.first;
+package com.basics;
 
 // Primitive is basically any data type you can not break further
 public class Primitives {
