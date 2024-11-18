@@ -1,6 +1,6 @@
 package com.searching;
 
-public class rotatedSortedSearch {
+public class LC_RotatedSortedSearch {
     public static void main(String[] args) {
         int[] normalArray = {0, 1, 2, 3, 4, 5, 6, 7, 8};
         System.out.println(peakIndex(normalArray));
@@ -16,7 +16,7 @@ public class rotatedSortedSearch {
     }
 
     static int peakIndex(int[] arr){
-        // This is for roated array and not mountaint array
+        // This is for roated array and not mountain array
         // intuition - let's try to find peak
 
         // Need first and last becasue start and end will keep changing
