@@ -13,9 +13,13 @@ public class LC_MissingNumber {
         int i = 0;
         while(i < nums.length){
             int correct = nums[i];
+            // Checking if item is not the maximum one, because it will go out of bounds
+            // Also checking if the item is at the wrong place
             if(nums[i] < nums.length && nums[i] != nums[correct]){
                 swap(nums, i, correct);
             } else {
+                // Automatiically handled the case when the value is at the correct positons
+                // Also handles when item is the max one, i.e. equal to the array lenght, so it has to be ignored
                 i++;
             }
         }
